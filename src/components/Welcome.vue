@@ -5,10 +5,12 @@
         <div class="block-img reveal-1">
           <img src="../assets/image.jpg" alt=""/>
         </div>
+
         <div class="block-body">
           <h2 class="title reveal-2">
             <span>Découvrez</span> notre gamme beauté
           </h2>
+
           <p class="reveal-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget. Duis
@@ -16,6 +18,7 @@
             convallis ac quis massa. Nullam lacinia semper massa, quis ultricies
             arcu libero.
           </p>
+
           <div class="more reveal-4">
             <a href="#">Voir</a>
           </div>
@@ -26,10 +29,12 @@
         <div class="block-img reveal-1">
           <img src="../assets/image.jpg" alt=""/>
         </div>
+
         <div class="block-body">
           <h2 class="title reveal-2">
             <span>Découvrez</span> notre gamme beauté
           </h2>
+
           <p class="reveal-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget. Duis
@@ -37,6 +42,7 @@
             convallis ac quis massa. Nullam lacinia semper massa, quis ultricies
             arcu libero.
           </p>
+
           <div class="more reveal-4">
             <a href="#">Voir</a>
           </div>
@@ -48,6 +54,7 @@
           <h2 class="title reveal-1">
             <span>Massages</span> certifiés détente
           </h2>
+
           <p class="reveal-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget. Duis
@@ -62,55 +69,50 @@
     <div class="container">
       <div class="menu-summary" id="menu">
         <div class="menu-summary-item reveal">
-          <img
-              src="../assets/image.jpg"
-              alt=""
-              class="menu-summary-img reveal-1"
-          />
+          <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
+
           <h3 class="menu-summary-title reveal-2">Massage génial</h3>
+
           <p class="reveal-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget.
           </p>
+
           <div class="menu-summary-price reveal-4">90€</div>
         </div>
         <div class="menu-summary-item reveal">
-          <img
-              src="../assets/image.jpg"
-              alt=""
-              class="menu-summary-img reveal-1"
-          />
+          <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
           <h3 class="menu-summary-title reveal-2">Massage génial</h3>
+
           <p class="reveal-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget.
           </p>
+
           <div class="menu-summary-price reveal-4">90€</div>
         </div>
         <div class="menu-summary-item reveal">
-          <img
-              src="../assets/image.jpg"
-              alt=""
-              class="menu-summary-img reveal-1"
-          />
+          <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
+
           <h3 class="menu-summary-title reveal-2">Massage génial</h3>
+
           <p class="reveal-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget.
           </p>
+
           <div class="menu-summary-price reveal-4">90€</div>
         </div>
         <div class="menu-summary-item reveal">
-          <img
-              src="../assets/image.jpg"
-              alt=""
-              class="menu-summary-img reveal-1"
-          />
+          <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
+
           <h3 class="menu-summary-title reveal-2">Massage génial</h3>
+
           <p class="reveal-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget.
           </p>
+
           <div class="menu-summary-price reveal-4">90€</div>
         </div>
       </div>
@@ -123,6 +125,7 @@
           <h2 class="title reveal-1">
             <span>Hôtesse</span> RENCONTREZ-MOI, CELINE TERTRAIS
           </h2>
+
           <p class="reveal-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget. Duis
@@ -130,11 +133,13 @@
             convallis ac quis massa. Nullam lacinia semper massa, quis ultricies
             arcu libero.
           </p>
+
           <p class="reveal-3">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
             consectetur magna mauris, sed maximus turpis tristique eget. Duis
             dictum faucibus pulvinar.
           </p>
+
           <div class="more reveal-4">
             <a href="#">En savoir plus</a>
           </div>
@@ -151,6 +156,31 @@ import { Options, Vue } from "vue-class-component";
   props: {},
 })
 export default class Welcome extends Vue {
+  mounted(): void {
+    const ratio = 0.1;
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: ratio,
+    };
+
+    const handleIntersect = function (entries: Array<IntersectionObserverEntry>, observer: IntersectionObserver) {
+      entries.forEach((entry: IntersectionObserverEntry) => {
+        if (entry.intersectionRatio > ratio) {
+          entry.target.classList.remove("reveal");
+          observer.unobserve(entry.target);
+        }
+      });
+    };
+
+    document.documentElement.classList.add("reveal-loaded");
+    window.addEventListener("DOMContentLoaded", function () {
+      const observer = new IntersectionObserver(handleIntersect, options);
+      document.querySelectorAll(".reveal").forEach(reveal => {
+        observer.observe(reveal);
+      });
+    });
+  }
 }
 </script>
 
