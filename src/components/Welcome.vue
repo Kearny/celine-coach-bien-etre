@@ -196,11 +196,7 @@ export default class Welcome extends Vue {
   max-width: 960px;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 1150px;
-}
+
 
 .block {
   margin-bottom: 50px;

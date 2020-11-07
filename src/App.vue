@@ -141,6 +141,12 @@ export default class App extends Vue {
   letter-spacing: 2px;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1150px;
+}
+
 .footer {
   background: #383838 bottom right no-repeat;
   font-weight: 300;
