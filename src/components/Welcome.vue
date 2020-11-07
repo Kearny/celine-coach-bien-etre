@@ -3,49 +3,93 @@
     <div class="container-small">
       <div class="block block-left reveal">
         <div class="block-img reveal-1">
-          <img src="../assets/image.jpg" alt=""/>
+          <img src="../assets/Soin_jeunesse.jpg" alt=""/>
         </div>
 
         <div class="block-body">
           <h2 class="title reveal-2">
-            <span>Découvrez</span> notre gamme beauté
+            <span>Découvrez</span> nos soins du visage
           </h2>
 
-          <p class="reveal-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget. Duis
-            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus
-            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies
-            arcu libero.
-          </p>
+          <!--          <p class="reveal-3">-->
+          <!--            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin-->
+          <!--            consectetur magna mauris, sed maximus turpis tristique eget. Duis-->
+          <!--            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus-->
+          <!--            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies-->
+          <!--            arcu libero.-->
+          <!--          </p>-->
 
           <div class="more reveal-4">
-            <a href="#">Voir</a>
+            <a class="button" href="/soins-visage">Voir</a>
           </div>
         </div>
       </div>
 
       <div class="block block-right reveal">
         <div class="block-img reveal-1">
-          <img src="../assets/image.jpg" alt=""/>
+          <img src="../assets/rehaussement-de-cils.jpg" alt=""/>
         </div>
 
         <div class="block-body">
           <h2 class="title reveal-2">
-            <span>Découvrez</span> notre gamme beauté
+            <span>Découvrez</span> le réhaussement de cils
+            <small>Marque n°1 mondiale</small>
           </h2>
 
           <p class="reveal-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget. Duis
-            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus
-            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies
-            arcu libero.
+            Rehaussement de cils + Teinture + Soin / 1h <br>
           </p>
 
+          <ul>
+            <li>Non testé sur les animaux</li>
+            <li>Vegan</li>
+            <li>Sans paraben ni colorant</li>
+            <li>Soin hypoallergénique</li>
+            <li>Made in France</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="block block-left reveal">
+        <div class="block-img reveal-1">
+          <img src="../assets/epilation.webp" alt=""/>
+        </div>
+
+        <div class="block-body">
+          <h2 class="title reveal-2">
+            <span>Découvrez</span> nos épilations
+          </h2>
+
+          <!--          <p class="reveal-3">-->
+          <!--            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin-->
+          <!--            consectetur magna mauris, sed maximus turpis tristique eget. Duis-->
+          <!--            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus-->
+          <!--            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies-->
+          <!--            arcu libero.-->
+          <!--          </p>-->
+
           <div class="more reveal-4">
-            <a href="#">Voir</a>
+            <a class="button" href="/epilations">Voir</a>
           </div>
+        </div>
+      </div>
+
+      <div class="block block-right reveal">
+        <div class="block-img reveal-1">
+          <img src="../assets/blanchiment_dents.jpg" alt=""/>
+        </div>
+
+        <div class="block-body">
+          <h2 class="title reveal-2">
+            <span>Découvrez</span> le blanchiment dentaire Américain
+          </h2>
+
+          <ul>
+            <li>Une séance<span style="float: right;">69&nbsp;€</span></li>
+            <li>Deux séances<span style="float: right;">99&nbsp;€</span></li>
+          </ul>
+
+
         </div>
       </div>
 
@@ -55,13 +99,13 @@
             <span>Massages</span> certifiés détente
           </h2>
 
-          <p class="reveal-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget. Duis
-            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus
-            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies
-            arcu libero.
-          </p>
+          <!--          <p class="reveal-2">-->
+          <!--            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin-->
+          <!--            consectetur magna mauris, sed maximus turpis tristique eget. Duis-->
+          <!--            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus-->
+          <!--            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies-->
+          <!--            arcu libero.-->
+          <!--          </p>-->
         </div>
       </div>
     </div>
@@ -69,51 +113,83 @@
     <div class="container">
       <div class="menu-summary" id="menu">
         <div class="menu-summary-item reveal">
-          <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
+          <img src="../assets/L_indien.jpg" alt="" class="menu-summary-img reveal-1"/>
 
-          <h3 class="menu-summary-title reveal-2">Massage génial</h3>
+          <h3 class="menu-summary-title reveal-2">L'indien</h3>
 
           <p class="reveal-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget.
+            Un massage Ayurvédique enveloppant aux huiles chaudes qui apporte une profonde relaxation et une douce
+            détente.
+            <br/><br/>
+            Rassurant, cocooning
           </p>
 
-          <div class="menu-summary-price reveal-4">90€</div>
+          <div class="menu-summary-price reveal-4">45€</div>
         </div>
+
         <div class="menu-summary-item reveal">
           <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
-          <h3 class="menu-summary-title reveal-2">Massage génial</h3>
+          <h3 class="menu-summary-title reveal-2">Le shirotchampi</h3>
 
           <p class="reveal-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget.
+            Massage Ayurvédique du haut du dos, des trapèzes, de la nuque, du cuir chevelu et du visage. Agit
+            immédiatement sur le stress, les maux de tête, l'insomnie et le manque de concentration.
           </p>
 
-          <div class="menu-summary-price reveal-4">90€</div>
+          <div class="menu-summary-price reveal-4">45€</div>
         </div>
+
+        <div class="menu-summary-item reveal">
+          <img src="../assets/LE_BALINAIS.jpg" alt="" class="menu-summary-img reveal-1"/>
+
+          <h3 class="menu-summary-title reveal-2">Le balinais</h3>
+
+          <p class="reveal-3">
+            Dynamique et relaxant. Il remodèle la silhouette, améliore la circulation sanguine et lymphatique,
+            entretenant une bonne condition physique.
+          </p>
+
+          <div class="menu-summary-price reveal-4">56€</div>
+        </div>
+
         <div class="menu-summary-item reveal">
           <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
 
-          <h3 class="menu-summary-title reveal-2">Massage génial</h3>
+          <h3 class="menu-summary-title reveal-2">Hawaïen "lomi-lomi"</h3>
 
           <p class="reveal-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget.
+            Hérité des guérisseurs Polynésiens ; le « Lomi, Lomi » insiste en profondeur sur le dos avec les avant-bras.
+            Il active l'énergie corporelle et provoque un lâcher-prise immédiat.
           </p>
 
-          <div class="menu-summary-price reveal-4">90€</div>
+          <div class="menu-summary-price reveal-4">56€</div>
         </div>
-        <div class="menu-summary-item reveal">
-          <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
 
-          <h3 class="menu-summary-title reveal-2">Massage génial</h3>
+        <div class="menu-summary-item reveal">
+          <img src="../assets/le_japonais.jpg" alt="" class="menu-summary-img reveal-1"/>
+
+          <h3 class="menu-summary-title reveal-2">LE JAPONAIS</h3>
 
           <p class="reveal-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget.
+            Art traditionnel Japonais, le shiatsu rééquilibre les énergies corporelles, lutte contre les états de
+            fatigue et de stress.
           </p>
 
-          <div class="menu-summary-price reveal-4">90€</div>
+          <div class="menu-summary-price reveal-4">55€</div>
+        </div>
+
+        <div class="menu-summary-item reveal">
+          <img src="../assets/La_reflexologie.jpg" alt="" class="menu-summary-img reveal-1"/>
+
+          <h3 class="menu-summary-title reveal-2">La réflexologie plantaire</h3>
+
+          <p class="reveal-3">
+            Issue de la médecine ancestrale chinoise, la réflexologie plantaire stimule et rééquilibre l’énergie vitale.
+            Le corps retrouve sa sérénité et un fonctionnement optimal. La circulation sanguine s’améliore, les toxines
+            sont évacuées plus efficacement.
+          </p>
+
+          <div class="menu-summary-price reveal-4">45€</div>
         </div>
       </div>
 
@@ -123,7 +199,7 @@
         </div>
         <div class="block-body reveal">
           <h2 class="title reveal-1">
-            <span>Hôtesse</span> RENCONTREZ-MOI, CELINE TERTRAIS
+            <span>Céline</span> Votre estéticienne
           </h2>
 
           <p class="reveal-2">
@@ -139,10 +215,19 @@
             consectetur magna mauris, sed maximus turpis tristique eget. Duis
             dictum faucibus pulvinar.
           </p>
+        </div>
+      </div>
 
-          <div class="more reveal-4">
-            <a href="#">En savoir plus</a>
-          </div>
+      <div class="block block-centered block-last reveal">
+        <div class="block-body social">
+          <h2 class="title reveal-1">
+            <span>Réseaux sociaux</span>
+          </h2>
+      
+          <p>Vous souhaitez voir plus de résultats, rendez-vous sur notre page instagram ou facebook</p>
+          <a target="_blank" href="https://www.instagram.com/coach_bien_etre"><img src="../assets/iconfinder_social-instagram-new-square2_1164347.png" alt="instagram"></a>
+
+          <a target="_blank" href="https://www.facebook.com/celinesoinbeauty"><img src="../assets/iconfinder_social-facebook-square2_771366.png" alt="facebook"></a>
         </div>
       </div>
     </div>
@@ -157,7 +242,7 @@ import { Options, Vue } from "vue-class-component";
 })
 export default class Welcome extends Vue {
   mounted(): void {
-    const ratio = 0.1;
+    const ratio = 0.00000001;
     const options = {
       root: null,
       rootMargin: "0px",
@@ -197,7 +282,6 @@ export default class Welcome extends Vue {
 }
 
 
-
 .block {
   margin-bottom: 50px;
 }
@@ -215,7 +299,7 @@ export default class Welcome extends Vue {
 .block-img {
   max-width: 350px;
   margin: 0 auto;
-  border: solid 1px #e387a6;
+  border: solid 1px #e0b3b9;
 }
 
 .block-img img {
@@ -234,12 +318,16 @@ export default class Welcome extends Vue {
   color: #000;
   font-weight: bold;
   text-transform: uppercase;
-  margin: 1rem 0 0 0;
+  margin: 1rem 0;
+}
+
+.title small {
+  font-size: 1rem;
 }
 
 .title span {
   font-family: "Pinyon Script", serif;
-  color: #e387a6;
+  color: #e0b3b9;
   font-size: 2.5rem;
   display: block;
   text-transform: none;
@@ -250,12 +338,12 @@ export default class Welcome extends Vue {
   display: inline-block;
   width: 24px;
   height: 2px;
-  background: #e387a6;
+  background: #e0b3b9;
   margin-bottom: 0.5rem;
 }
 
 .more {
-  color: #e387a6;
+  color: #e0b3b9;
 }
 
 .menu-summary-item {
@@ -277,6 +365,7 @@ export default class Welcome extends Vue {
   font-weight: bold;
   padding-bottom: 0.75rem;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .menu-summary p {
@@ -287,13 +376,23 @@ export default class Welcome extends Vue {
 
 .menu-summary-price {
   font-family: "Pinyon Script", serif;
-  color: #e387a6;
+  color: #e0b3b9;
   font-size: 2.5rem;
   line-height: 1;
 }
 
 .reservation .block-centered .block-body {
   max-width: 825px;
+}
+
+.social {
+  font-weight: bold;
+}
+
+.social img {
+  margin: 5px;
+  width: 32px;
+  height: 32px;
 }
 
 @media only screen and (min-width: 800px) {
@@ -326,7 +425,7 @@ export default class Welcome extends Vue {
   .block-img::before {
     content: "";
     display: block;
-    border: solid 1px #e387a6;
+    border: solid 1px #e0b3b9;
     position: absolute;
     top: -30px;
     left: -30px;
@@ -414,7 +513,7 @@ export default class Welcome extends Vue {
     left: 50%;
     width: 420px;
     height: 420px;
-    border: solid 1px #e387a6;
+    border: solid 1px #e0b3b9;
     transform: translate(-50%, -260px) rotate(45deg);
   }
 

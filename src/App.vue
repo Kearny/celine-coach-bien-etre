@@ -8,7 +8,7 @@
       <nav class="menu">
         <a href="#" class="menu-item">A propos</a>
         <a href="#" class="menu-item">Contact</a>
-        <a href="#" class="menu-item menu-button">Réserver</a>
+        <a href="#" class="menu-item button">Réserver</a>
       </nav>
     </div>
     <div class="baseline reveal">
@@ -96,18 +96,18 @@ export default class App extends Vue {
 }
 
 .menu-item:hover {
-  color: #e387a6;
+  color: #e0b3b9;
 }
 
-.menu-button {
-  border: solid 1px #e387a6;
+.button {
+  border: solid 1px #e0b3b9;
   padding: 7px 10px;
   transition-property: color, background-color;
   margin-top: 5px;
 }
 
-.menu-button:hover {
-  background: #e387a6;
+.button:hover {
+  background: #e0b3b9;
   color: #fff;
 }
 
@@ -119,7 +119,7 @@ export default class App extends Vue {
 
 .baseline-welcome {
   font-family: "Pinyon Script", serif;
-  color: #e387a6;
+  color: #e0b3b9;
   display: block;
   font-size: 2.2rem;
 }
@@ -155,7 +155,7 @@ export default class App extends Vue {
 }
 
 .footer-title {
-  color: #e387a6;
+  color: #e0b3b9;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1.25em;
@@ -197,17 +197,13 @@ export default class App extends Vue {
     font-size: 3.75rem;
   }
 
-  .menu-button {
+  .button {
     margin-top: 0;
     margin-right: 0;
   }
 }
 
 @media only screen and (min-width: 800px) {
-  .footer {
-    background-image: url(./assets/footer-splash.jpg);
-  }
-
   .footer-columns {
     display: flex;
     justify-content: space-between;
@@ -232,7 +228,7 @@ export default class App extends Vue {
   }
 
   .footer a:hover {
-    color: #e387a6;
+    color: #e0b3b9;
   }
 
   .footer ul {
