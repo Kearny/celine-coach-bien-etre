@@ -5,17 +5,17 @@
         <a href="/">Céline coach bien-être</a>
       </div>
 
-      <nav class="menu">
-        <a href="#" class="menu-item">A propos</a>
-        <a href="#" class="menu-item">Contact</a>
-        <a href="#" class="menu-item button">Réserver</a>
-      </nav>
+<!--      <nav class="menu">-->
+<!--        <a href="#" class="menu-item">A propos</a>-->
+<!--        <a href="#" class="menu-item">Contact</a>-->
+<!--        <a href="#" class="menu-item button">Réserver</a>-->
+<!--      </nav>-->
     </div>
     <div class="baseline reveal">
       <span class="baseline-welcome reveal-1">Bienvenue</span>
       <strong class="baseline-name reveal-2">Céline Coach bien-être</strong>
       <span class="baseline-slogan reveal-3"
-      >Soins - Esthétique - Diagnostique de peau en ligne</span
+      >Soins - Esthétique - Diagnostic de peau en ligne</span
       >
     </div>
   </header>
@@ -28,25 +28,22 @@
         <div class="footer-column reveal-1">
           <div class="footer-title">Céline Coach bien-être</div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
-            dolorum, sint corporis nostrum, possimus unde eos vitae eius quasi
-            saepe.
+            <a href="mailto:alexandre.liscia@gmail.com">Alexandre Liscia</a>&nbsp;-&nbsp;Tous droits réservés
           </p>
         </div>
         <div class="footer-column reveal-2">
           <div class="footer-title">Contact info</div>
           <p>
-            1234 Altschul, New York, NY 10027-0000<br/>
+            Saint-Médard-sur-ille<br/>
             +1 987 654 3210<br/>
-            <a href="mailto:contact@celine-coach.fr">contact@thefiasco.com</a>
+            <a href="mailto:celinebienetrepositive@gmail.com">celinebienetrepositive@gmail.com</a>
           </p>
         </div>
         <div class="footer-column reveal-3">
           <div class="footer-title">Heures d'ouverture</div>
           <ul>
-            <li>Lundi au Vendredi | 10:00 - 19:00</li>
-            <li>Lundi au Vendredi | 10:00 - 19:00</li>
-            <li>Lundi au Vendredi | 10:00 - 19:00</li>
+            <li>Lundi au Vendredi<span class="text-right">09:00 - 19:00</span></li>
+            <li>Samedi<span class="text-right">09:00 - 17:00</span></li>
           </ul>
         </div>
       </div>

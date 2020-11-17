@@ -11,16 +11,51 @@
             <span>Découvrez</span> nos soins du visage
           </h2>
 
-          <!--          <p class="reveal-3">-->
-          <!--            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin-->
-          <!--            consectetur magna mauris, sed maximus turpis tristique eget. Duis-->
-          <!--            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus-->
-          <!--            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies-->
-          <!--            arcu libero.-->
-          <!--          </p>-->
+          <div id="soins-expandable">
+            <ul class="soins-visage reveal-3">
+              <li>
+                <span class="soins-visage-title">Soin éclat</span><span class="text-right">1h00 - 45&nbsp;€</span>
+                <p>Un soin revitalisant ultra-concentré à la Vitamine C qui booste l’éclat du teint, visible dès la fin
+                  du
+                  soin.</p>
+              </li>
+
+              <li>
+                <span class="soins-visage-title">Soin hydratant</span><span class="text-right">1h00 - 49&nbsp;€</span>
+                <p>
+                  Retrouvez une peau souple, douce et éclatante !
+                  <br>
+                  Ce soin relance les mécanismes d’hydratation naturels des peaux les plus asséchées. Revitalisez votre
+                  épiderme et donnez-lui une seconde jeunesse. </p>
+              </li>
+              <li>
+                <span class="soins-visage-title">Soin douceur</span><span class="text-right">1h00 - 55&nbsp;€</span>
+                <p>
+                  Le soin « SOS beauté » des peaux fragilisées !
+                  <br>
+                  Il répare, rééquilibre les défenses naturelles de l’épiderme. La peau est hydratée, apaisée, unifiée.
+                </p>
+              </li>
+              <li>
+                <span class="soins-visage-title">Soin purifiant et rééquilibrant</span><span class="text-right">1h00 - 59&nbsp;€</span>
+                <p>
+                  Idéal pour les peaux mixtes à grasses.
+                  <br>
+                  Il épure et matifie votre peau. Elle est plus nette ; le grain de peau est affiné, resserré </p>
+              </li>
+              <li>
+                <span class="soins-visage-title">Soin jeunesse</span><span class="text-right">1h15 - 59&nbsp;€</span>
+                <p>
+                  Estompez les rides superficielles et revigorez vos traits en une séance !
+                  <br>
+                  Grâce aux ultrasons profitez immédiatement d’une peau raffermie à l’aspect rajeuni.
+                </p>
+              </li>
+            </ul>
+          </div>
 
           <div class="more reveal-4">
-            <a class="button" href="/soins-visage">Voir</a>
+            <a class="button" href="#" v-on:click.prevent="switchExpandedState('soins-expandable')">Voir</a>
           </div>
         </div>
       </div>
@@ -37,10 +72,11 @@
           </h2>
 
           <p class="reveal-3">
-            Rehaussement de cils + Teinture + Soin / 1h <br>
+            Rehaussement de cils + Teinture + Soin / 1h
+            <span class="text-right">45&nbsp;€</span>
           </p>
 
-          <ul>
+          <ul class="reveal-4">
             <li>Non testé sur les animaux</li>
             <li>Vegan</li>
             <li>Sans paraben ni colorant</li>
@@ -60,16 +96,27 @@
             <span>Découvrez</span> nos épilations
           </h2>
 
-          <!--          <p class="reveal-3">-->
-          <!--            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin-->
-          <!--            consectetur magna mauris, sed maximus turpis tristique eget. Duis-->
-          <!--            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus-->
-          <!--            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies-->
-          <!--            arcu libero.-->
-          <!--          </p>-->
+          <div id="epilations-expandable">
+            <ul class="reveal-3">
+              <li>Sourcils<span class="text-right">6&nbsp;€</span></li>
+              <li>Création sourcils<span class="text-right">8&nbsp;€</span></li>
+              <li>Lèvres<span class="text-right">5&nbsp;€</span></li>
+              <li>Menton<span class="text-right">5&nbsp;€</span></li>
+              <li>Aisselles<span class="text-right">8&nbsp;€</span></li>
+              <li>Demi-bras<span class="text-right">8&nbsp;€</span></li>
+              <li>Bras entier<span class="text-right">12&nbsp;€</span></li>
+              <li>Demi-jambes<span class="text-right">12&nbsp;€</span></li>
+              <li>3/4 jambes<span class="text-right">16&nbsp;€</span></li>
+              <li>Jambes complètes<span class="text-right">20&nbsp;€</span></li>
+              <li>Maillot simple<span class="text-right">8&nbsp;€</span></li>
+              <li>Maillot échancré<span class="text-right">12&nbsp;€</span></li>
+              <li>Maillot brésilien<span class="text-right">15&nbsp;€</span></li>
+              <li>Maillot intégral<span class="text-right">19&nbsp;€</span></li>
+            </ul>
+          </div>
 
           <div class="more reveal-4">
-            <a class="button" href="/epilations">Voir</a>
+            <a class="button" href="#" v-on:click.prevent="switchExpandedState('epilations-expandable')">Voir</a>
           </div>
         </div>
       </div>
@@ -85,11 +132,73 @@
           </h2>
 
           <ul>
-            <li>Une séance<span style="float: right;">69&nbsp;€</span></li>
-            <li>Deux séances<span style="float: right;">99&nbsp;€</span></li>
+            <li>Une séance<span class="text-right">69&nbsp;€</span></li>
+            <li>Deux séances<span class="text-right">99&nbsp;€</span></li>
           </ul>
+        </div>
+      </div>
 
+      <div class="block block-right reveal">
+        <div class="block-img reveal-1">
+          <img src="../assets/MICRONEEDLING.jpg" alt=""/>
+        </div>
 
+        <div class="block-body">
+          <h2 class="title reveal-2">
+            <span>Découvrez</span> le microneedling
+          </h2>
+
+          <p class="reveal-3">
+            Microneedling
+            <span class="text-right">1h00 - 75&nbsp;€</span>
+          </p>
+
+          <div id="microneedling-expandable">
+            <p class="reveal-4">Méthode de régénération naturelle de la peau ! Grâce à des micro perforations de
+              l’épiderme je vais
+              stimuler la synthèse des fibroblastes. Ces cellules assurent cohérence et souplesse de la peau. Réactivant
+              la fabrication de l’élastine et du collagène, ce traitement non invasif permet de traiter :
+            </p>
+
+            <ul class="reveal-4">
+              <li>Cicatrices d'acné</li>
+              <li>Teint terne</li>
+              <li>Masque de grossesse</li>
+              <li>Vergetures récentes</li>
+              <li>Relâchement cutanée du visage</li>
+              <li>Rides ou ridules</li>
+              <li>Pores dilatés</li>
+            </ul>
+
+            <p class="reveal-4">Ce soin peut être réalisé sur tous types de peau</p>
+          </div>
+
+          <div class="more reveal-4">
+            <a class="button" href="#" v-on:click.prevent="switchExpandedState('microneedling-expandable')">Voir</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="block block-left reveal">
+        <div class="block-img reveal-1">
+          <img src="../assets/BBGLOW.jpg" alt=""/>
+        </div>
+
+        <div class="block-body">
+          <h2 class="title reveal-2">
+            <span>Découvrez</span> le BB Glow
+          </h2>
+
+          <p class="reveal-3">
+            BB Glow
+            <span class="text-right">1h00 - 70&nbsp;€</span>
+          </p>
+
+          <p class="reveal-4">C’est la nouvelle sensation venue de Corée ! Une technique révolutionnaire qui vous
+            procure un teint lumineux et une couleur naturelle, sans maquillage, pendant 9 mois à 1 an ! Indolore et non
+            abrasif, le BB Glow stimule la production de collagène pour des résultats visibles dès la première séance.
+            En quelques séances, unifiez votre teint, dissimulez imperfections, cernes et retrouvez une peau de bébé!
+          </p>
         </div>
       </div>
 
@@ -98,14 +207,6 @@
           <h2 class="title reveal-1">
             <span>Massages</span> certifiés détente
           </h2>
-
-          <!--          <p class="reveal-2">-->
-          <!--            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin-->
-          <!--            consectetur magna mauris, sed maximus turpis tristique eget. Duis-->
-          <!--            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus-->
-          <!--            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies-->
-          <!--            arcu libero.-->
-          <!--          </p>-->
         </div>
       </div>
     </div>
@@ -153,7 +254,7 @@
         </div>
 
         <div class="menu-summary-item reveal">
-          <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
+          <img src="../assets/lomi-lomi.jpg" alt="" class="menu-summary-img reveal-1"/>
 
           <h3 class="menu-summary-title reveal-2">Hawaïen "lomi-lomi"</h3>
 
@@ -203,17 +304,18 @@
           </h2>
 
           <p class="reveal-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget. Duis
-            dictum faucibus pulvinar. Ut in nunc sit amet tellus tempus
-            convallis ac quis massa. Nullam lacinia semper massa, quis ultricies
-            arcu libero.
+            Je suis Céline, esthéticienne et praticienne à domicile. Je me deplace chez vous sur le secteur de Rennes et
+            communes environnantes ou vous reçois à mon domicile à Saint Médard sur ille.
+            <br>
           </p>
 
           <p class="reveal-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-            consectetur magna mauris, sed maximus turpis tristique eget. Duis
-            dictum faucibus pulvinar.
+            Je propose tout type de prestations de beauté et plusieurs types de massages à domicile.
+          </p>
+
+          <p class="reveal-4">
+            Mes métiers d'esthéticienne et praticienne à domicile me permettent d'intervenir directement chez vous, à
+            l'horaire qui vous arrange. Découvrez la beauté à domicile ou le massage à domicile avec Céline !
           </p>
         </div>
       </div>
@@ -223,11 +325,13 @@
           <h2 class="title reveal-1">
             <span>Réseaux sociaux</span>
           </h2>
-      
-          <p>Vous souhaitez voir plus de résultats, rendez-vous sur notre page instagram ou facebook</p>
-          <a target="_blank" href="https://www.instagram.com/coach_bien_etre"><img src="../assets/iconfinder_social-instagram-new-square2_1164347.png" alt="instagram"></a>
 
-          <a target="_blank" href="https://www.facebook.com/celinesoinbeauty"><img src="../assets/iconfinder_social-facebook-square2_771366.png" alt="facebook"></a>
+          <p>Vous souhaitez voir plus de résultats, rendez-vous sur notre page instagram ou facebook</p>
+          <a target="_blank" href="https://www.instagram.com/coach_bien_etre"><img
+              src="../assets/iconfinder_social-instagram-new-square2_1164347.png" alt="instagram"></a>
+
+          <a target="_blank" href="https://www.facebook.com/celinesoinbeauty"><img
+              src="../assets/iconfinder_social-facebook-square2_771366.png" alt="facebook"></a>
         </div>
       </div>
     </div>
@@ -266,11 +370,42 @@ export default class Welcome extends Vue {
       });
     });
   }
+
+  switchExpandedState(elementId: string): void {
+    console.log(elementId);
+    const toExpandElement = document.getElementById(elementId);
+
+    if (toExpandElement != null)
+      if (toExpandElement.classList.contains("isExpanded")) {
+        toExpandElement.classList.remove("isExpanded");
+      } else {
+        toExpandElement.classList.add("isExpanded");
+      }
+  }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+/* EXPAND STYLE */
+#soins-expandable {
+  display: none;
+}
+
+#epilations-expandable {
+  display: none;
+}
+
+#microneedling-expandable {
+  display: none;
+}
+
+.isExpanded {
+  display: block !important;
+}
+
+/* EXPAND STYLE */
+
 .home-section {
   padding-top: 9px;
 }
@@ -383,6 +518,14 @@ export default class Welcome extends Vue {
 
 .reservation .block-centered .block-body {
   max-width: 825px;
+}
+
+.soins-visage-title {
+  text-transform: uppercase;
+}
+
+.soins-visage > p {
+  text-transform: initial;
 }
 
 .social {
