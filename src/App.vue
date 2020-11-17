@@ -4,13 +4,8 @@
       <div class="logo">
         <a href="/">Céline coach bien-être</a>
       </div>
-
-<!--      <nav class="menu">-->
-<!--        <a href="#" class="menu-item">A propos</a>-->
-<!--        <a href="#" class="menu-item">Contact</a>-->
-<!--        <a href="#" class="menu-item button">Réserver</a>-->
-<!--      </nav>-->
     </div>
+
     <div class="baseline reveal">
       <span class="baseline-welcome reveal-1">Bienvenue</span>
       <strong class="baseline-name reveal-2">Céline Coach bien-être</strong>
@@ -31,6 +26,7 @@
             <a href="mailto:alexandre.liscia@gmail.com">Alexandre Liscia</a>&nbsp;-&nbsp;Tous droits réservés
           </p>
         </div>
+
         <div class="footer-column reveal-2">
           <div class="footer-title">Contact info</div>
           <p>
@@ -38,6 +34,7 @@
             <a href="mailto:celinebienetrepositive@gmail.com">celinebienetrepositive@gmail.com</a>
           </p>
         </div>
+
         <div class="footer-column reveal-3">
           <div class="footer-title">Heures d'ouverture</div>
           <ul>
