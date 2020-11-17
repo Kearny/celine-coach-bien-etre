@@ -35,7 +35,6 @@
           <div class="footer-title">Contact info</div>
           <p>
             Saint-Médard-sur-ille<br/>
-            +1 987 654 3210<br/>
             <a href="mailto:celinebienetrepositive@gmail.com">celinebienetrepositive@gmail.com</a>
           </p>
         </div>
