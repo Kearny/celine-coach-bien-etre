@@ -249,7 +249,7 @@ export default class App extends Vue {
 }
 
 .reveal-loaded [class*="reveal-"] {
-  transition: 1s cubic-bezier(.5, 0, 0, 1);
+  transition: 2s cubic-bezier(.5, 0, 0, 1);
 }
 
 .reveal-loaded .reveal-2 {
@@ -262,6 +262,18 @@ export default class App extends Vue {
 
 .reveal-loaded .reveal-4 {
   transition-delay: .3s;
+}
+
+.reveal-loaded .reveal-5 {
+  transition-delay: .4s;
+}
+
+.reveal-loaded .reveal-6 {
+  transition-delay: .5s;
+}
+
+.reveal-loaded .reveal-7 {
+  transition-delay: .6s;
 }
 
 @media (prefers-reduced-motion: reduce) {

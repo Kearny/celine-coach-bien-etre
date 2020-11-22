@@ -304,18 +304,25 @@
           </h2>
 
           <p class="reveal-2">
-            Je suis Céline, esthéticienne et praticienne à domicile. Je me deplace chez vous sur le secteur de Rennes et
-            communes environnantes ou vous reçois à mon domicile à Saint Médard sur ille.
+            Esthéticienne diplômée d'état, riche de 10 années d'expérience et passionnée par mon métier. <br>
+            Titulaire d'un bac esthétique puis d'une formation spa, j'ai travaillé dans différentes structures :
+            institut de beauté, spa et thalassothérapie en France.
             <br>
           </p>
 
           <p class="reveal-3">
-            Je propose tout type de prestations de beauté et plusieurs types de massages à domicile.
+            Je me déplace sur le secteur de Rennes et ses alentours où vous reçois à mon domicile à
+            Saint-Médard-sur-Ille pour vous proposer des prestations de qualité.
           </p>
 
           <p class="reveal-4">
-            Mes métiers d'esthéticienne et praticienne à domicile me permettent d'intervenir directement chez vous, à
-            l'horaire qui vous arrange. Découvrez la beauté à domicile ou le massage à domicile avec Céline !
+            J'interviens rapidement, sur rendez-vous, selon vos disponibilités.
+          </p>
+          <p class="reveal-5">
+            Au plaisir de vous voir bientôt.
+          </p>
+          <p class="reveal-6">
+            Céline
           </p>
         </div>
       </div>
