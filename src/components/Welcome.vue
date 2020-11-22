@@ -300,7 +300,7 @@
         </div>
         <div class="block-body reveal">
           <h2 class="title reveal-1">
-            <span>Céline</span> Votre estéticienne
+            <span>Céline</span> Votre esthéticienne
           </h2>
 
           <p class="reveal-2">
