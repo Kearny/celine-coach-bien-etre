@@ -31,7 +31,8 @@
           <div class="footer-title">Contact info</div>
           <p>
             Saint-Médard-sur-ille<br/>
-            <a href="mailto:celinebienetrepositive@gmail.com">celinebienetrepositive@gmail.com</a>
+            <a href="mailto:celinebienetrepositive@gmail.com">celinebienetrepositive@gmail.com</a><br/>
+            <a href="tel:07 60 61 92 50">07 60 61 92 50</a>
           </p>
         </div>
 

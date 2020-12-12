@@ -216,7 +216,7 @@
         <div class="menu-summary-item reveal">
           <img src="../assets/L_indien.jpg" alt="" class="menu-summary-img reveal-1"/>
 
-          <h3 class="menu-summary-title reveal-2">L'indien</h3>
+          <h3 class="menu-summary-title reveal-2">L'indien&nbsp;-&nbsp;1h00</h3>
 
           <p class="reveal-3">
             Un massage Ayurvédique enveloppant aux huiles chaudes qui apporte une profonde relaxation et une douce
@@ -230,7 +230,7 @@
 
         <div class="menu-summary-item reveal">
           <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
-          <h3 class="menu-summary-title reveal-2">Le shirotchampi</h3>
+          <h3 class="menu-summary-title reveal-2">Le shirotchampi&nbsp;-&nbsp;1h00</h3>
 
           <p class="reveal-3">
             Massage Ayurvédique du haut du dos, des trapèzes, de la nuque, du cuir chevelu et du visage. Agit
@@ -243,7 +243,7 @@
         <div class="menu-summary-item reveal">
           <img src="../assets/LE_BALINAIS.jpg" alt="" class="menu-summary-img reveal-1"/>
 
-          <h3 class="menu-summary-title reveal-2">Le balinais</h3>
+          <h3 class="menu-summary-title reveal-2">Le balinais&nbsp;-&nbsp;1h00</h3>
 
           <p class="reveal-3">
             Dynamique et relaxant. Il remodèle la silhouette, améliore la circulation sanguine et lymphatique,
@@ -256,7 +256,7 @@
         <div class="menu-summary-item reveal">
           <img src="../assets/lomi-lomi.jpg" alt="" class="menu-summary-img reveal-1"/>
 
-          <h3 class="menu-summary-title reveal-2">Hawaïen "lomi-lomi"</h3>
+          <h3 class="menu-summary-title reveal-2">Hawaïen "lomi-lomi"&nbsp;-&nbsp;1h00</h3>
 
           <p class="reveal-3">
             Hérité des guérisseurs Polynésiens ; le « Lomi, Lomi » insiste en profondeur sur le dos avec les avant-bras.
@@ -269,7 +269,7 @@
         <div class="menu-summary-item reveal">
           <img src="../assets/le_japonais.jpg" alt="" class="menu-summary-img reveal-1"/>
 
-          <h3 class="menu-summary-title reveal-2">LE JAPONAIS</h3>
+          <h3 class="menu-summary-title reveal-2">LE JAPONAIS&nbsp;-&nbsp;1h00</h3>
 
           <p class="reveal-3">
             Art traditionnel Japonais, le shiatsu rééquilibre les énergies corporelles, lutte contre les états de
@@ -282,7 +282,7 @@
         <div class="menu-summary-item reveal">
           <img src="../assets/La_reflexologie.jpg" alt="" class="menu-summary-img reveal-1"/>
 
-          <h3 class="menu-summary-title reveal-2">La réflexologie plantaire</h3>
+          <h3 class="menu-summary-title reveal-2">La réflexologie plantaire&nbsp;-&nbsp;0h45</h3>
 
           <p class="reveal-3">
             Issue de la médecine ancestrale chinoise, la réflexologie plantaire stimule et rééquilibre l’énergie vitale.
@@ -291,6 +291,52 @@
           </p>
 
           <div class="menu-summary-price reveal-4">45€</div>
+        </div>
+      </div>
+
+      <div class="block block-centered block-last reveal">
+        <div class="block-body" id="abonnement-block-body">
+          <h2 class="title reveal-1">
+            <span>Abonnement</span> faîtes-vous plaisir plus souvent
+          </h2>
+          <div class="abonnement-row">
+            <div>
+                <p>
+                  Carte 5 massages&nbsp;-&nbsp;1h00 - 219€<br>
+                  Carte non nominative valable un an.<br>
+                  Les massages sont au choix.
+                </p>
+            </div>
+            <div id="abonnement-right">
+              <strong>Formules : </strong>
+              <ul id="abonnement-list">
+                <li>Microneedling +  BB Glow + luminothérapie - 110€</li>
+                <li>4 séances de microneedling + BB Glow + luminothérapie - 260€</li>
+                <li>3 séances de BB Glow + luminothérapie - 170€</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="block block-centered block-last reveal">
+        <div class="block-body">
+          <h2 class="title reveal-1">
+            <span>Offrir</span> un coffret cadeau
+          </h2>
+          <p class="reveal-2">La carte cadeau est le cadeau facile et qui plaît à tous les coups !</p>
+          <ul id="carte-cadeau-list" class="reveal-3">
+            <li>Carte cadeau valable un an.</li>
+            <li>
+              Choisissez :
+              <ul>
+                <li>Un montant libre de votre choix. (attention, le montant apparaîtra sur le bon cadeau)</li>
+                <li>Une ou plusieurs prestations. (dans ce cas, pas de montant sur le bon cadeau)</li>
+              </ul>
+            </li>
+          </ul>
+          <img class="reveal-4" src="../assets/carte_cadeau.jpg" alt="carte cadeau" width="400">
         </div>
       </div>
 
@@ -423,6 +469,20 @@ export default class Welcome extends Vue {
   max-width: 960px;
 }
 
+.abonnement-row {
+  column-count: 1;
+  column-gap: 1rem;
+}
+
+.abonnement-row > div{
+  min-height: 200px;
+  border: 1px dotted #e0b3b9;
+  margin-bottom: 1rem;
+}
+
+#abonnement-list {
+  text-align: left;
+}
 
 .block {
   margin-bottom: 50px;
@@ -545,6 +605,16 @@ export default class Welcome extends Vue {
   height: 32px;
 }
 
+#abonnement-price {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#carte-cadeau-list {
+  text-align: left;
+}
+
 @media only screen and (min-width: 800px) {
   .block {
     margin-bottom: 100px;
@@ -608,7 +678,6 @@ export default class Welcome extends Vue {
 
   .menu-summary {
     position: relative;
-    padding: 85px 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -666,6 +735,16 @@ export default class Welcome extends Vue {
     border: solid 1px #e0b3b9;
     transform: translate(-50%, -260px) rotate(45deg);
   }
+
+  #abonnement-block-body{
+    max-width: inherit;
+  }
+
+  .abonnement-row {
+    column-count: 2;
+    column-gap: 1rem;
+  }
+
 
   .block-celine {
     display: flex;
