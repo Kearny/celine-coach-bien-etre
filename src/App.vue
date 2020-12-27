@@ -9,9 +9,9 @@
     <div class="baseline reveal">
       <span class="baseline-welcome reveal-1">Bienvenue</span>
       <strong class="baseline-name reveal-2">Céline Coach bien-être</strong>
-      <span class="baseline-slogan reveal-3"
-      >Soins - Esthétique - Diagnostic de peau en ligne</span
-      >
+      <span class="baseline-slogan reveal-3">
+        Soins - Esthétique - Diagnostic de peau en ligne
+      </span>
     </div>
   </header>
 
