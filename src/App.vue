@@ -4,6 +4,10 @@
       <div class="logo">
         <a href="/">Céline coach bien-être</a>
       </div>
+
+      <div class="calendar-button">
+        <router-link to="/rendez-vous">Prendre rendez-vous</router-link>
+      </div>
     </div>
 
     <div class="baseline reveal">
@@ -15,7 +19,7 @@
     </div>
   </header>
 
-  <Welcome/>
+  <router-view></router-view>
 
   <footer class="footer reveal" id="footer">
     <div class="container">
@@ -49,8 +53,8 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import Welcome from "./components/Welcome.vue";
+import { Options, Vue } from 'vue-class-component';
+import Welcome from './components/Welcome.vue';
 
 @Options({
   components: {
@@ -82,6 +86,31 @@ export default class App extends Vue {
 
 .logo {
   margin-bottom: 15px;
+}
+
+.calendar-button {
+  color: #fff;
+  background-color: #e0b3b9;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid white;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.calendar-button:hover {
+  background-color: #eec1c7;
+  border-color: white;
+  box-shadow: 0px 1px 20px;
 }
 
 .menu-item {
