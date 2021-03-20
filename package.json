@@ -10,7 +10,8 @@
   "dependencies": {
     "core-js": "^3.9.1",
     "vue": "^3.0.7",
-    "vue-class-component": "^8.0.0-rc.1"
+    "vue-class-component": "^8.0.0-rc.1",
+    "vue-router": "^4.0.5"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
