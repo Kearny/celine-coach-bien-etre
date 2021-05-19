@@ -3,7 +3,7 @@
     <div class="container-small">
       <div class="block block-left reveal">
         <div class="block-img reveal-1">
-          <img src="../assets/Soin_jeunesse.jpg" alt=""/>
+          <img alt="" src="../assets/Soin_jeunesse.jpg"/>
         </div>
 
         <div class="block-body">
@@ -44,6 +44,20 @@
                   Il épure et matifie votre peau. Elle est plus nette ; le grain de peau est affiné, resserré </p>
               </li>
               <li>
+                <span class="soins-visage-title">Soin anti-comédons</span><span
+                  class="text-right">1h00 - 56&nbsp;€</span>
+                <p>
+                  Désincrustant et équilibrant, pour les peaux à tendance comédogènes dont les pores sont dilatés.
+                  <br>
+                  Après un démaquillage et une exfoliation en douceur, il permet d'extraire les comédons. Un modelage
+                  adapté, pratiqué avec un sérum équilibrant ainsi que la pose d'un masque, assurent une bonne
+                  pénétration des actifs.
+                  <br>
+                  Enfin, ce soin se termine par l'application d'une crème sur l'ensemble du visage, cou et décolleté
+                  pour nourrir votre peau.
+                </p>
+              </li>
+              <li>
                 <span class="soins-visage-title">Soin jeunesse</span><span class="text-right">1h15 - 59&nbsp;€</span>
                 <p>
                   Estompez les rides superficielles et revigorez vos traits en une séance !
@@ -62,7 +76,7 @@
 
       <div class="block block-right reveal">
         <div class="block-img reveal-1">
-          <img src="../assets/rehaussement-de-cils.jpg" alt=""/>
+          <img alt="" src="../assets/rehaussement-de-cils.jpg"/>
         </div>
 
         <div class="block-body">
@@ -88,7 +102,7 @@
 
       <div class="block block-left reveal">
         <div class="block-img reveal-1">
-          <img src="../assets/epilation.webp" alt=""/>
+          <img alt="" src="../assets/epilation.webp"/>
         </div>
 
         <div class="block-body">
@@ -123,7 +137,7 @@
 
       <div class="block block-right reveal">
         <div class="block-img reveal-1">
-          <img src="../assets/blanchiment_dents.jpg" alt=""/>
+          <img alt="" src="../assets/blanchiment_dents.jpg"/>
         </div>
 
         <div class="block-body">
@@ -138,9 +152,32 @@
         </div>
       </div>
 
+      <div class="block block-left reveal">
+        <div class="block-img reveal-1">
+          <img alt="" src="../assets/BBGLOW.jpg"/>
+        </div>
+
+        <div class="block-body">
+          <h2 class="title reveal-2">
+            <span>Découvrez</span> le BB Glow
+          </h2>
+
+          <p class="reveal-3">
+            BB Glow
+            <span class="text-right">1h00 - 70&nbsp;€</span>
+          </p>
+
+          <p class="reveal-4">C’est la nouvelle sensation venue de Corée ! Une technique révolutionnaire qui vous
+            procure un teint lumineux et une couleur naturelle, sans maquillage, pendant 9 mois à 1 an ! Indolore et non
+            abrasif, le BB Glow stimule la production de collagène pour des résultats visibles dès la première séance.
+            En quelques séances, unifiez votre teint, dissimulez imperfections, cernes et retrouvez une peau de bébé!
+          </p>
+        </div>
+      </div>
+
       <div class="block block-right reveal">
         <div class="block-img reveal-1">
-          <img src="../assets/MICRONEEDLING.jpg" alt=""/>
+          <img alt="" src="../assets/MICRONEEDLING.jpg"/>
         </div>
 
         <div class="block-body">
@@ -181,23 +218,44 @@
 
       <div class="block block-left reveal">
         <div class="block-img reveal-1">
-          <img src="../assets/BBGLOW.jpg" alt=""/>
+          <video controls width="300">
+            <source src="../assets/PEELING.mp4" type="video/mp4">
+          </video>
         </div>
 
         <div class="block-body">
           <h2 class="title reveal-2">
-            <span>Découvrez</span> le BB Glow
+            <span>Découvrez</span> le Peeling
           </h2>
 
           <p class="reveal-3">
-            BB Glow
-            <span class="text-right">1h00 - 70&nbsp;€</span>
+            Peeling
+            <span class="text-right">1h00 - 75&nbsp;€</span>
           </p>
 
-          <p class="reveal-4">C’est la nouvelle sensation venue de Corée ! Une technique révolutionnaire qui vous
-            procure un teint lumineux et une couleur naturelle, sans maquillage, pendant 9 mois à 1 an ! Indolore et non
-            abrasif, le BB Glow stimule la production de collagène pour des résultats visibles dès la première séance.
-            En quelques séances, unifiez votre teint, dissimulez imperfections, cernes et retrouvez une peau de bébé!
+          <p class="reveal-4">
+
+          </p>
+        </div>
+      </div>
+
+      <div class="block block-right reveal">
+        <div class="block-img reveal-1">
+          <img alt="" src="../assets/callosite.jpg"/>
+        </div>
+
+        <div class="block-body">
+          <h2 class="title reveal-2">
+            <span>Découvrez</span> le soin anti-callosité
+          </h2>
+
+          <p class="reveal-3">
+            Soint anti-callosité
+            <span class="text-right">0h30 - 32&nbsp;€</span>
+          </p>
+
+
+          <p class="reveal-4">
           </p>
         </div>
       </div>
@@ -212,9 +270,9 @@
     </div>
 
     <div class="container">
-      <div class="menu-summary" id="menu">
+      <div id="menu" class="menu-summary">
         <div class="menu-summary-item reveal">
-          <img src="../assets/L_indien.jpg" alt="" class="menu-summary-img reveal-1"/>
+          <img alt="" class="menu-summary-img reveal-1" src="../assets/L_indien.jpg"/>
 
           <h3 class="menu-summary-title reveal-2">L'indien&nbsp;-&nbsp;1h00</h3>
 
@@ -229,7 +287,7 @@
         </div>
 
         <div class="menu-summary-item reveal">
-          <img src="../assets/massage.jpg" alt="" class="menu-summary-img reveal-1"/>
+          <img alt="" class="menu-summary-img reveal-1" src="../assets/massage.jpg"/>
           <h3 class="menu-summary-title reveal-2">Le shirotchampi&nbsp;-&nbsp;1h00</h3>
 
           <p class="reveal-3">
@@ -241,7 +299,7 @@
         </div>
 
         <div class="menu-summary-item reveal">
-          <img src="../assets/LE_BALINAIS.jpg" alt="" class="menu-summary-img reveal-1"/>
+          <img alt="" class="menu-summary-img reveal-1" src="../assets/LE_BALINAIS.jpg"/>
 
           <h3 class="menu-summary-title reveal-2">Le balinais&nbsp;-&nbsp;1h00</h3>
 
@@ -254,7 +312,7 @@
         </div>
 
         <div class="menu-summary-item reveal">
-          <img src="../assets/lomi-lomi.jpg" alt="" class="menu-summary-img reveal-1"/>
+          <img alt="" class="menu-summary-img reveal-1" src="../assets/lomi-lomi.jpg"/>
 
           <h3 class="menu-summary-title reveal-2">Hawaïen "lomi-lomi"&nbsp;-&nbsp;1h00</h3>
 
@@ -267,7 +325,7 @@
         </div>
 
         <div class="menu-summary-item reveal">
-          <img src="../assets/le_japonais.jpg" alt="" class="menu-summary-img reveal-1"/>
+          <img alt="" class="menu-summary-img reveal-1" src="../assets/le_japonais.jpg"/>
 
           <h3 class="menu-summary-title reveal-2">LE JAPONAIS&nbsp;-&nbsp;1h00</h3>
 
@@ -280,7 +338,7 @@
         </div>
 
         <div class="menu-summary-item reveal">
-          <img src="../assets/La_reflexologie.jpg" alt="" class="menu-summary-img reveal-1"/>
+          <img alt="" class="menu-summary-img reveal-1" src="../assets/La_reflexologie.jpg"/>
 
           <h3 class="menu-summary-title reveal-2">La réflexologie plantaire&nbsp;-&nbsp;0h45</h3>
 
@@ -295,24 +353,24 @@
       </div>
 
       <div class="block block-centered block-last reveal">
-        <div class="block-body" id="abonnement-block-body">
+        <div id="abonnement-block-body" class="block-body">
           <h2 class="title reveal-1">
             <span>Abonnement</span> faîtes-vous plaisir plus souvent
           </h2>
           <div class="abonnement-row">
             <div>
-                <p>
-                  Carte 5 massages&nbsp;-&nbsp;1h00 - 219€<br>
-                  Carte non nominative valable un an.<br>
-                  Les massages sont au choix.
-                </p>
+              <p>
+                Carte 5 massages&nbsp;-&nbsp;1h00 - 219€<br>
+                Carte non nominative valable un an.<br>
+                Les massages sont au choix.
+              </p>
             </div>
             <div id="abonnement-right">
               <strong>Formules : </strong>
               <ul id="abonnement-list">
-                <li>Microneedling +  BB Glow + luminothérapie - 110€</li>
-                <li>4 séances de microneedling + BB Glow + luminothérapie - 260€</li>
-                <li>3 séances de BB Glow + luminothérapie - 170€</li>
+                <li>Microneedling + BB Glow + 1 luminothérapie - 110€</li>
+                <li>Cure de 3 séances Microneedling soin complet + 1 luminothérapie - 205€</li>
+                <li>3 séances de BB Glow + 1 luminothérapie - 190€</li>
               </ul>
             </div>
           </div>
@@ -336,13 +394,13 @@
               </ul>
             </li>
           </ul>
-          <img class="reveal-4" src="../assets/carte_cadeau.jpg" alt="carte cadeau" width="400">
+          <img alt="carte cadeau" class="reveal-4" src="../assets/carte_cadeau.jpg" width="400">
         </div>
       </div>
 
       <div class="block block-celine">
         <div class="block-img">
-          <img src="../assets/celine.png" alt=""/>
+          <img alt="" src="../assets/celine.png"/>
         </div>
         <div class="block-body reveal">
           <h2 class="title reveal-1">
@@ -380,11 +438,11 @@
           </h2>
 
           <p>Vous souhaitez voir plus de résultats, rendez-vous sur notre page instagram ou facebook</p>
-          <a target="_blank" href="https://www.instagram.com/coach_bien_etre"><img
-              src="../assets/iconfinder_social-instagram-new-square2_1164347.png" alt="instagram"></a>
+          <a href="https://www.instagram.com/coach_bien_etre" target="_blank"><img
+              alt="instagram" src="../assets/iconfinder_social-instagram-new-square2_1164347.png"></a>
 
-          <a target="_blank" href="https://www.facebook.com/celinesoinbeauty"><img
-              src="../assets/iconfinder_social-facebook-square2_771366.png" alt="facebook"></a>
+          <a href="https://www.facebook.com/celinesoinbeauty" target="_blank"><img
+              alt="facebook" src="../assets/iconfinder_social-facebook-square2_771366.png"></a>
         </div>
       </div>
     </div>
@@ -392,33 +450,33 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component";
+import { Options, Vue } from 'vue-class-component';
 
 @Options({
-  props: {},
+  props: {}
 })
 export default class Welcome extends Vue {
   mounted(): void {
     const ratio = 0.00000001;
     const options = {
       root: null,
-      rootMargin: "0px",
-      threshold: ratio,
+      rootMargin: '0px',
+      threshold: ratio
     };
 
-    const handleIntersect = function (entries: Array<IntersectionObserverEntry>, observer: IntersectionObserver) {
+    const handleIntersect = function(entries: Array<IntersectionObserverEntry>, observer: IntersectionObserver) {
       entries.forEach((entry: IntersectionObserverEntry) => {
         if (entry.intersectionRatio > ratio) {
-          entry.target.classList.remove("reveal");
+          entry.target.classList.remove('reveal');
           observer.unobserve(entry.target);
         }
       });
     };
 
-    document.documentElement.classList.add("reveal-loaded");
-    window.addEventListener("DOMContentLoaded", function () {
+    document.documentElement.classList.add('reveal-loaded');
+    window.addEventListener('DOMContentLoaded', function() {
       const observer = new IntersectionObserver(handleIntersect, options);
-      document.querySelectorAll(".reveal").forEach(reveal => {
+      document.querySelectorAll('.reveal').forEach(reveal => {
         observer.observe(reveal);
       });
     });
@@ -429,10 +487,10 @@ export default class Welcome extends Vue {
     const toExpandElement = document.getElementById(elementId);
 
     if (toExpandElement != null)
-      if (toExpandElement.classList.contains("isExpanded")) {
-        toExpandElement.classList.remove("isExpanded");
+      if (toExpandElement.classList.contains('isExpanded')) {
+        toExpandElement.classList.remove('isExpanded');
       } else {
-        toExpandElement.classList.add("isExpanded");
+        toExpandElement.classList.add('isExpanded');
       }
   }
 }
@@ -474,7 +532,7 @@ export default class Welcome extends Vue {
   column-gap: 1rem;
 }
 
-.abonnement-row > div{
+.abonnement-row > div {
   min-height: 200px;
   border: 1px dotted #e0b3b9;
   margin-bottom: 1rem;
@@ -509,6 +567,15 @@ export default class Welcome extends Vue {
 }
 
 .block-img img {
+  position: relative;
+  z-index: 1;
+}
+
+.block-img video {
+  display: block;
+}
+
+.block-img video {
   position: relative;
   z-index: 1;
 }
@@ -736,7 +803,7 @@ export default class Welcome extends Vue {
     transform: translate(-50%, -260px) rotate(45deg);
   }
 
-  #abonnement-block-body{
+  #abonnement-block-body {
     max-width: inherit;
   }
 
