@@ -14,7 +14,7 @@
           <div id="soins-expandable">
             <ul class="soins-visage reveal-3">
               <li>
-                <span class="soins-visage-title">Soin éclat</span><span class="text-right">1h00 - 45&nbsp;€</span>
+                <span class="soins-visage-title">Soin éclat</span><span class="text-right">1h00 - 49&nbsp;€</span>
                 <p>Un soin revitalisant ultra-concentré à la Vitamine C qui booste l’éclat du teint, visible dès la fin
                   du
                   soin.</p>
@@ -58,7 +58,7 @@
                 </p>
               </li>
               <li>
-                <span class="soins-visage-title">Soin jeunesse</span><span class="text-right">1h15 - 59&nbsp;€</span>
+                <span class="soins-visage-title">Soin jeunesse</span><span class="text-right">1h15 - 63&nbsp;€</span>
                 <p>
                   Estompez les rides superficielles et revigorez vos traits en une séance !
                   <br>
@@ -86,8 +86,8 @@
           </h2>
 
           <p class="reveal-3">
-            Rehaussement de cils + Teinture + Soin / 1h
-            <span class="text-right">45&nbsp;€</span>
+            Rehaussement de cils + Teinture + Soin / 1h20
+            <span class="text-right">60&nbsp;€</span>
           </p>
 
           <ul class="reveal-4">
@@ -97,6 +97,11 @@
             <li>Soin hypoallergénique</li>
             <li>Made in France</li>
           </ul>
+
+          <p class="reveal-3">
+            Ou <b>Inzebox</b> Rehaussement de cils +  Soin / 1h
+            <span class="text-right">45&nbsp;€</span>
+          </p>
         </div>
       </div>
 
@@ -147,7 +152,7 @@
 
           <ul>
             <li>Une séance<span class="text-right">69&nbsp;€</span></li>
-            <li>Deux séances<span class="text-right">99&nbsp;€</span></li>
+            <li>Deux séances<span class="text-right">110&nbsp;€</span></li>
           </ul>
         </div>
       </div>
@@ -254,8 +259,31 @@
             <span class="text-right">0h30 - 32&nbsp;€</span>
           </p>
 
+          <p class="reveal-4">
+          </p>
+        </div>
+      </div>
+
+      <div class="block block-left reveal">
+        <div class="block-img reveal-1">
+<!--          <video controls width="300">-->
+<!--            <source src="../assets/PEELING.mp4" type="video/mp4">-->
+<!--          </video>-->
+        </div>
+
+        <div class="block-body">
+          <h2 class="title reveal-2">
+            <span>Découvrez</span> la teinture des sourcils au hénné
+          </h2>
+
+          <p class="reveal-3">
+            Des sourcils parfaits en toute circonstance 100% WATERPROOF, 100% INDOLORE et 100% EPHEMERE.
+            Le hénné va teindre la peau et également les poils
+            <span class="text-right">1h00 - 75&nbsp;€</span>
+          </p>
 
           <p class="reveal-4">
+
           </p>
         </div>
       </div>
@@ -274,7 +302,7 @@
         <div class="menu-summary-item reveal">
           <img alt="" class="menu-summary-img reveal-1" src="../assets/L_indien.jpg"/>
 
-          <h3 class="menu-summary-title reveal-2">L'indien&nbsp;-&nbsp;1h00</h3>
+          <h3 class="menu-summary-title reveal-2">L'indien&nbsp;-&nbsp;1h00&nbsp;/&nbsp;1h30</h3>
 
           <p class="reveal-3">
             Un massage Ayurvédique enveloppant aux huiles chaudes qui apporte une profonde relaxation et une douce
@@ -283,7 +311,7 @@
             Rassurant, cocooning
           </p>
 
-          <div class="menu-summary-price reveal-4">45€</div>
+          <div class="menu-summary-price reveal-4">49€&nbsp;/&nbsp;72€</div>
         </div>
 
         <div class="menu-summary-item reveal">
@@ -295,7 +323,7 @@
             immédiatement sur le stress, les maux de tête, l'insomnie et le manque de concentration.
           </p>
 
-          <div class="menu-summary-price reveal-4">45€</div>
+          <div class="menu-summary-price reveal-4">49€</div>
         </div>
 
         <div class="menu-summary-item reveal">
