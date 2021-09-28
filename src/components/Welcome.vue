@@ -273,12 +273,12 @@
 
         <div class="block-body">
           <h2 class="title reveal-2">
-            <span>Découvrez</span> la teinture des sourcils au hénné
+            <span>Découvrez</span> la teinture des sourcils au henné
           </h2>
 
           <p class="reveal-3">
             Des sourcils parfaits en toute circonstance 100% WATERPROOF, 100% INDOLORE et 100% EPHEMERE.
-            Le hénné va teindre la peau et également les poils
+            Le henné va teindre la peau et également les poils
             <span class="text-right">1h00 - 75&nbsp;€</span>
           </p>
 
