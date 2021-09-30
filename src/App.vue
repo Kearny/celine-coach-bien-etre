@@ -4,10 +4,6 @@
       <div class="logo">
         <a href="/">Céline coach bien-être</a>
       </div>
-
-      <div class="calendar-button">
-        <router-link to="/rendez-vous">Prendre rendez-vous</router-link>
-      </div>
     </div>
 
     <div class="baseline reveal">

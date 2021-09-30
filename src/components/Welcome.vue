@@ -266,9 +266,7 @@
 
       <div class="block block-left reveal">
         <div class="block-img reveal-1">
-<!--          <video controls width="300">-->
-<!--            <source src="../assets/PEELING.mp4" type="video/mp4">-->
-<!--          </video>-->
+          <img alt="" src="../assets/coloration_sourcils_henne.jpg"/>
         </div>
 
         <div class="block-body">
@@ -279,7 +277,7 @@
           <p class="reveal-3">
             Des sourcils parfaits en toute circonstance 100% WATERPROOF, 100% INDOLORE et 100% EPHEMERE.
             Le henné va teindre la peau et également les poils
-            <span class="text-right">1h00 - 75&nbsp;€</span>
+            <span class="text-right">1h00 - 32&nbsp;€</span>
           </p>
 
           <p class="reveal-4">
