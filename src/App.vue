@@ -4,6 +4,12 @@
       <div class="logo">
         <a href="/">Céline coach bien-être</a>
       </div>
+
+      <div class="calendar-button">
+        <a href="https://www.planity.com/celine-coach-bien-etre-35250-saint-medard-sur-ille#services-container" target="_blank">
+          Prendre rendez-vous
+        </a>
+      </div>
     </div>
 
     <div class="baseline reveal">
@@ -49,14 +55,8 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import Welcome from './components/Welcome.vue';
+import {Vue} from 'vue-class-component';
 
-@Options({
-  components: {
-    Welcome,
-  },
-})
 export default class App extends Vue {
 }
 </script>
@@ -66,11 +66,12 @@ export default class App extends Vue {
   background: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.92),
-      rgba(54, 54, 54, 0.5) 39.24%,
-      rgba(28, 28, 28, 0.4)
+      rgba(54, 54, 54, 0.6) 36%,
+      rgba(0, 0, 0, 0)
   ),
   url(./assets/banner.jpg) center center / cover no-repeat;
   color: #fff;
+  margin-bottom: 2rem;
 }
 
 .topbar {

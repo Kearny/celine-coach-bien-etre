@@ -223,19 +223,39 @@
 
       <div class="block block-left reveal">
         <div class="block-img reveal-1">
-          <video controls width="300">
-            <source src="../assets/PEELING.mp4" type="video/mp4">
-          </video>
+          <img alt="" src="../assets/HydraSkin.jpg"/>
         </div>
 
         <div class="block-body">
           <h2 class="title reveal-2">
-            <span>Découvrez</span> le Peeling
+            <span>Découvrez</span> le soin HydraSkin®
           </h2>
 
           <p class="reveal-3">
-            Peeling
-            <span class="text-right">1h00 - 75&nbsp;€</span>
+            Soin HydraSkin® Detox
+            <span class="text-right">1h15 - 80&nbsp;€</span>
+          </p>
+
+          <p class="reveal-4">
+            Ce soin permet de nettoyer la peau en profondeur et en douceur (extraction des points noirs, micro-kystes...) tout en y faisant pénétrer des sérums.
+          </p>
+
+          <hr>
+          <p class="reveal-3">
+            Soin HydraSkin® Lift
+            <span class="text-right">1h30 - 90&nbsp;€</span>
+          </p>
+
+          <p class="reveal-4">
+            Ce soin permet de nettoyer la peau en profondeur et en douceur (extraction des points noirs, micro-kystes...) tout en y faisant pénétrer des sérums.
+            Purifie, hydrate, repulpe et tonifie la peau.
+          </p>
+
+          <hr>
+          <p class="reveal-3">
+            Soin Hydraneedling <br/>
+            HydraSkin® et Microneedling
+            <span class="text-right">2h00 - 130&nbsp;€</span>
           </p>
 
           <p class="reveal-4">
@@ -476,11 +496,8 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
+import { Vue } from 'vue-class-component';
 
-@Options({
-  props: {}
-})
 export default class Welcome extends Vue {
   mounted(): void {
     const ratio = 0.00000001;
@@ -524,6 +541,13 @@ export default class Welcome extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(224, 179, 185, 0), rgba(224, 179, 185, .75), rgba(224, 179, 185, 0));
+}
+
 /* EXPAND STYLE */
 #soins-expandable {
   display: none;
