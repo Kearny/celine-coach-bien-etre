@@ -1,6 +1,17 @@
 <template>
+
+
   <section class="home-section">
+
     <div class="container-small">
+      <div class="block block-left reveal">
+        <div class="calendar-button">
+          <a href="#new" v-on:click="shadow()">
+            Voir les nouveautés
+          </a>
+        </div>
+      </div>
+
       <div class="block block-left reveal">
         <div class="block-img reveal-1">
           <img alt="" src="../assets/Soin_jeunesse.jpg"/>
@@ -99,7 +110,7 @@
           </ul>
 
           <p class="reveal-3">
-            Ou <b>Inzebox</b> Rehaussement de cils +  Soin / 1h
+            Ou <b>Inzebox</b> Rehaussement de cils + Soin / 1h
             <span class="text-right">45&nbsp;€</span>
           </p>
         </div>
@@ -221,7 +232,7 @@
         </div>
       </div>
 
-      <div class="block block-left reveal">
+      <div id="new" class="block block-left new-section reveal">
         <div class="block-img reveal-1">
           <img alt="" src="../assets/HydraSkin.jpg"/>
         </div>
@@ -237,7 +248,8 @@
           </p>
 
           <p class="reveal-4">
-            Ce soin permet de nettoyer la peau en profondeur et en douceur (extraction des points noirs, micro-kystes...) tout en y faisant pénétrer des sérums.
+            Ce soin permet de nettoyer la peau en profondeur et en douceur (extraction des points noirs,
+            micro-kystes...) tout en y faisant pénétrer des sérums.
           </p>
 
           <hr>
@@ -247,7 +259,8 @@
           </p>
 
           <p class="reveal-4">
-            Ce soin permet de nettoyer la peau en profondeur et en douceur (extraction des points noirs, micro-kystes...) tout en y faisant pénétrer des sérums.
+            Ce soin permet de nettoyer la peau en profondeur et en douceur (extraction des points noirs,
+            micro-kystes...) tout en y faisant pénétrer des sérums.
             Purifie, hydrate, repulpe et tonifie la peau.
           </p>
 
@@ -275,7 +288,7 @@
           </h2>
 
           <p class="reveal-3">
-            Soint anti-callosité
+            Soin anti-callosité
             <span class="text-right">0h30 - 32&nbsp;€</span>
           </p>
 
@@ -303,6 +316,33 @@
           <p class="reveal-4">
 
           </p>
+        </div>
+      </div>
+
+      <div id="new" class="block block-right new-section reveal">
+        <div class="block-img reveal-1">
+          <video controls width="300">
+            <source src="../assets/soin-minceur.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="block-body">
+          <h2 class="title reveal-2">
+            <span>Découvrez</span> les soins minceur
+          </h2>
+
+            <ul class="reveal-3">
+              <li>
+                <span>Massage drainage lymphatique</span><span class="text-right">1h00 - 70&nbsp;€</span>
+              </li>
+              <li>
+                <span>Massage brésilien Sculptroll</span><span class="text-right">1h00 - 95&nbsp;€</span>
+              </li>
+              <li>
+                <span>Massage brésilien Sculptroll - Touch Effect</span><span
+                  class="text-right">1h30 - 120&nbsp;€</span>
+              </li>
+            </ul>
         </div>
       </div>
 
@@ -496,7 +536,7 @@
 </template>
 
 <script lang="ts">
-import { Vue } from 'vue-class-component';
+import {Vue} from 'vue-class-component';
 
 export default class Welcome extends Vue {
   mounted(): void {
@@ -507,7 +547,7 @@ export default class Welcome extends Vue {
       threshold: ratio
     };
 
-    const handleIntersect = function(entries: Array<IntersectionObserverEntry>, observer: IntersectionObserver) {
+    const handleIntersect = function (entries: Array<IntersectionObserverEntry>, observer: IntersectionObserver) {
       entries.forEach((entry: IntersectionObserverEntry) => {
         if (entry.intersectionRatio > ratio) {
           entry.target.classList.remove('reveal');
@@ -517,7 +557,7 @@ export default class Welcome extends Vue {
     };
 
     document.documentElement.classList.add('reveal-loaded');
-    window.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('DOMContentLoaded', function () {
       const observer = new IntersectionObserver(handleIntersect, options);
       document.querySelectorAll('.reveal').forEach(reveal => {
         observer.observe(reveal);
@@ -529,23 +569,36 @@ export default class Welcome extends Vue {
     console.log(elementId);
     const toExpandElement = document.getElementById(elementId);
 
-    if (toExpandElement != null)
+    if (toExpandElement)
       if (toExpandElement.classList.contains('isExpanded')) {
         toExpandElement.classList.remove('isExpanded');
       } else {
         toExpandElement.classList.add('isExpanded');
       }
   }
+
+  shadow() {
+    console.log('shadow');
+    let htmlCollectionOfNewSection = document.getElementsByClassName('new-section');
+
+    for (let i = 0; i < htmlCollectionOfNewSection.length; i++) {
+      let element = htmlCollectionOfNewSection[i];
+      element.classList.add('new');
+    }
+  }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(224, 179, 185, 0), rgba(224, 179, 185, .75), rgba(224, 179, 185, 0));
+}
+
+.new {
+  box-shadow: #383838 1px 2px 5px;
+  padding: 2rem;
 }
 
 /* EXPAND STYLE */
