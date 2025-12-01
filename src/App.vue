@@ -29,7 +29,7 @@
         <div class="footer-column reveal-1">
           <div class="footer-title">Céline Coach bien-être</div>
           <p>
-            <a href="mailto:alexandre.liscia@gmail.com">Alexandre Liscia</a>&nbsp;-&nbsp;Tous droits réservés
+            <a href="mailto:alexandre.liscia@icloud.com">Alexandre Lane Liscia</a>&nbsp;-&nbsp;Tous droits réservés
           </p>
         </div>
 

@@ -25,14 +25,14 @@
           <div id="soins-expandable">
             <ul class="soins-visage reveal-3">
               <li>
-                <span class="soins-visage-title">Soin éclat</span><span class="text-right">1h00 - 49&nbsp;€</span>
+                <span class="soins-visage-title">Soin éclat</span><span class="text-right">1h00 - 59&nbsp;€</span>
                 <p>Un soin revitalisant ultra-concentré à la Vitamine C qui booste l’éclat du teint, visible dès la fin
                   du
                   soin.</p>
               </li>
 
               <li>
-                <span class="soins-visage-title">Soin hydratant</span><span class="text-right">1h00 - 49&nbsp;€</span>
+                <span class="soins-visage-title">Soin hydratant</span><span class="text-right">1h00 - 59&nbsp;€</span>
                 <p>
                   Retrouvez une peau souple, douce et éclatante !
                   <br>
@@ -40,7 +40,7 @@
                   épiderme et donnez-lui une seconde jeunesse. </p>
               </li>
               <li>
-                <span class="soins-visage-title">Soin douceur</span><span class="text-right">1h00 - 55&nbsp;€</span>
+                <span class="soins-visage-title">Soin douceur</span><span class="text-right">1h00 - 59&nbsp;€</span>
                 <p>
                   Le soin « SOS beauté » des peaux fragilisées !
                   <br>
@@ -48,7 +48,7 @@
                 </p>
               </li>
               <li>
-                <span class="soins-visage-title">Soin purifiant et rééquilibrant</span><span class="text-right">1h00 - 59&nbsp;€</span>
+                <span class="soins-visage-title">Soin purifiant et rééquilibrant</span><span class="text-right">1h00 - 65&nbsp;€</span>
                 <p>
                   Idéal pour les peaux mixtes à grasses.
                   <br>
@@ -56,7 +56,7 @@
               </li>
               <li>
                 <span class="soins-visage-title">Soin anti-comédons</span><span
-                  class="text-right">1h00 - 56&nbsp;€</span>
+                  class="text-right">1h00 - 68&nbsp;€</span>
                 <p>
                   Désincrustant et équilibrant, pour les peaux à tendance comédogènes dont les pores sont dilatés.
                   <br>
@@ -69,11 +69,19 @@
                 </p>
               </li>
               <li>
-                <span class="soins-visage-title">Soin jeunesse</span><span class="text-right">1h15 - 63&nbsp;€</span>
+                <span class="soins-visage-title">Soin jeunesse</span><span class="text-right">1h15 - 65&nbsp;€</span>
                 <p>
                   Estompez les rides superficielles et revigorez vos traits en une séance !
                   <br>
                   Grâce aux ultrasons profitez immédiatement d’une peau raffermie à l’aspect rajeuni.
+                </p>
+              </li>
+              <li>
+                <span class="soins-visage-title">Soin radio fréquence</span><span
+                  class="text-right">1h00 - 65&nbsp;€</span>
+                <p>
+                  Un soin rafermissant qui stimule la production de collagène pour une peau plus lisse, tonifiée et
+                  visiblement rajeunie.
                 </p>
               </li>
             </ul>
@@ -98,7 +106,7 @@
 
           <p class="reveal-3">
             Rehaussement de cils + Teinture + Soin / 1h20
-            <span class="text-right">60&nbsp;€</span>
+            <span class="text-right">64&nbsp;€</span>
           </p>
 
           <ul class="reveal-4">
@@ -108,11 +116,6 @@
             <li>Soin hypoallergénique</li>
             <li>Made in France</li>
           </ul>
-
-          <p class="reveal-3">
-            Ou <b>Inzebox</b> Rehaussement de cils + Soin / 1h
-            <span class="text-right">45&nbsp;€</span>
-          </p>
         </div>
       </div>
 
@@ -126,22 +129,47 @@
             <span>Découvrez</span> nos épilations
           </h2>
 
+          <h3 class="menu-summary-title reveal-2">Epilation définitive</h3>
+          <h4>
+            Bilan Laser et devis personnalisé obligatoire&nbsp;-&nbsp;29&nbsp;€
+            <br><i>Dispositif indolore</i>
+          </h4>
+
+          <ul>
+            <li>
+              Le laser cible sélectivement le follicule pileux grâce à des impulsions intenses d'énergie lumineuse
+              induisant une destruction thermique, sans endommager les tissus environnants
+            </li>
+            <li>
+              Traitement de toutes les zones du corps : jambes, aisselles, maillot, dos, visage..., chez la femme et
+              chez l'homme.
+            </li>
+            <li>
+              Des traitements rapides et efficaces pour des séances aussi courtes que possible.
+            </li>
+            <li>
+              Système de refroidissement unique pour améliorer votre confort durant la séance et protéger l'épiderme.
+            </li>
+          </ul>
+
+
+          <h3 class="menu-summary-title reveal-2">Epilation classique...</h3>
           <div id="epilations-expandable">
             <ul class="reveal-3">
-              <li>Sourcils<span class="text-right">6&nbsp;€</span></li>
-              <li>Création sourcils<span class="text-right">8&nbsp;€</span></li>
-              <li>Lèvres<span class="text-right">5&nbsp;€</span></li>
-              <li>Menton<span class="text-right">5&nbsp;€</span></li>
-              <li>Aisselles<span class="text-right">8&nbsp;€</span></li>
-              <li>Demi-bras<span class="text-right">8&nbsp;€</span></li>
-              <li>Bras entier<span class="text-right">12&nbsp;€</span></li>
-              <li>Demi-jambes<span class="text-right">12&nbsp;€</span></li>
-              <li>3/4 jambes<span class="text-right">16&nbsp;€</span></li>
-              <li>Jambes complètes<span class="text-right">20&nbsp;€</span></li>
-              <li>Maillot simple<span class="text-right">8&nbsp;€</span></li>
-              <li>Maillot échancré<span class="text-right">12&nbsp;€</span></li>
-              <li>Maillot brésilien<span class="text-right">15&nbsp;€</span></li>
-              <li>Maillot intégral<span class="text-right">19&nbsp;€</span></li>
+              <li>Sourcils<span class="text-right">10&nbsp;€</span></li>
+              <li>Lèvres<span class="text-right">8&nbsp;€</span></li>
+              <li>Menton<span class="text-right">8&nbsp;€</span></li>
+              <li>Aisselles<span class="text-right">11&nbsp;€</span></li>
+              <li>Demi-bras<span class="text-right">12&nbsp;€</span></li>
+              <li>Bras entier<span class="text-right">17&nbsp;€</span></li>
+              <li>Cuisses<span class="text-right">15&nbsp;€</span></li>
+              <li>Demi-jambes<span class="text-right">16&nbsp;€</span></li>
+              <li>3/4 jambes<span class="text-right">17&nbsp;€</span></li>
+              <li>Jambes complètes<span class="text-right">25&nbsp;€</span></li>
+              <li>Maillot simple<span class="text-right">13&nbsp;€</span></li>
+              <li>Maillot échancré<span class="text-right">15&nbsp;€</span></li>
+              <li>Maillot brésilien<span class="text-right">17&nbsp;€</span></li>
+              <li>Maillot intégral<span class="text-right">25&nbsp;€</span></li>
             </ul>
           </div>
 
@@ -153,17 +181,18 @@
 
       <div class="block block-right reveal">
         <div class="block-img reveal-1">
-          <img alt="" src="../assets/blanchiment_dents.jpg"/>
+          <img alt="" src="../assets/head_spa_japanese.jpg"/>
         </div>
 
         <div class="block-body">
           <h2 class="title reveal-2">
-            <span>Découvrez</span> le blanchiment dentaire Américain
+            <span>Découvrez</span> le head spa japanese
           </h2>
 
           <ul>
-            <li>Une séance<span class="text-right">69&nbsp;€</span></li>
-            <li>Deux séances<span class="text-right">110&nbsp;€</span></li>
+            <li>Rituel évasion<span class="text-right">45min - 70 €</span></li>
+            <li>Rituel expérience ultime<span class="text-right">70min - 90 €</span></li>
+            <li>Rituel Hikari Head Spa<span class="text-right">90min - 115 €</span></li>
           </ul>
         </div>
       </div>
@@ -198,11 +227,11 @@
 
         <div class="block-body">
           <h2 class="title reveal-2">
-            <span>Découvrez</span> le microneedling
+            <span>Découvrez</span> le nanoneedling
           </h2>
 
           <p class="reveal-3">
-            Microneedling
+            Nanoneedling
             <span class="text-right">1h00 - 75&nbsp;€</span>
           </p>
 
@@ -289,7 +318,7 @@
 
           <p class="reveal-3">
             Soin anti-callosité
-            <span class="text-right">0h30 - 32&nbsp;€</span>
+            <span class="text-right">0h30 - 36&nbsp;€</span>
           </p>
 
           <p class="reveal-4">
@@ -310,7 +339,7 @@
           <p class="reveal-3">
             Des sourcils parfaits en toute circonstance 100% WATERPROOF, 100% INDOLORE et 100% EPHEMERE.
             Le henné va teindre la peau et également les poils
-            <span class="text-right">1h00 - 32&nbsp;€</span>
+            <span class="text-right">1h00 - 34&nbsp;€</span>
           </p>
 
           <p class="reveal-4">
@@ -331,18 +360,22 @@
             <span>Découvrez</span> les soins minceur
           </h2>
 
-            <ul class="reveal-3">
-              <li>
-                <span>Massage drainage lymphatique</span><span class="text-right">1h00 - 70&nbsp;€</span>
-              </li>
-              <li>
-                <span>Massage brésilien Sculptroll</span><span class="text-right">1h00 - 95&nbsp;€</span>
-              </li>
-              <li>
-                <span>Massage brésilien Sculptroll - Touch Effect</span><span
-                  class="text-right">1h30 - 120&nbsp;€</span>
-              </li>
-            </ul>
+          <ul class="reveal-3">
+            <li>
+              <span>Massage drainage lymphatique</span><span class="text-right">1h00 - 70&nbsp;€</span>
+            </li>
+            <li>
+              <span>Massage brésilien Sculptroll</span><span class="text-right">1h00 - 95&nbsp;€</span>
+            </li>
+            <li>
+              <span>Massage brésilien Sculptroll - Touch Effect</span><span
+                class="text-right">1h30 - 120&nbsp;€</span>
+            </li>
+            <li>
+              <span>La Lipocavitation</span><span
+                class="text-right">1h00 - 60&nbsp;€</span>
+            </li>
+          </ul>
         </div>
       </div>
 
@@ -369,7 +402,7 @@
             Rassurant, cocooning
           </p>
 
-          <div class="menu-summary-price reveal-4">49€&nbsp;/&nbsp;72€</div>
+          <div class="menu-summary-price reveal-4">67€&nbsp;/&nbsp;90€</div>
         </div>
 
         <div class="menu-summary-item reveal">
@@ -381,20 +414,20 @@
             immédiatement sur le stress, les maux de tête, l'insomnie et le manque de concentration.
           </p>
 
-          <div class="menu-summary-price reveal-4">49€</div>
+          <div class="menu-summary-price reveal-4">67€</div>
         </div>
 
         <div class="menu-summary-item reveal">
           <img alt="" class="menu-summary-img reveal-1" src="../assets/LE_BALINAIS.jpg"/>
 
-          <h3 class="menu-summary-title reveal-2">Le balinais&nbsp;-&nbsp;1h00</h3>
+          <h3 class="menu-summary-title reveal-2">Le balinais&nbsp;-&nbsp;1h00&nbsp;/&nbsp;1h30</h3>
 
           <p class="reveal-3">
             Dynamique et relaxant. Il remodèle la silhouette, améliore la circulation sanguine et lymphatique,
             entretenant une bonne condition physique.
           </p>
 
-          <div class="menu-summary-price reveal-4">56€</div>
+          <div class="menu-summary-price reveal-4">70€&nbsp;/&nbsp;90€</div>
         </div>
 
         <div class="menu-summary-item reveal">
@@ -407,7 +440,7 @@
             Il active l'énergie corporelle et provoque un lâcher-prise immédiat.
           </p>
 
-          <div class="menu-summary-price reveal-4">56€</div>
+          <div class="menu-summary-price reveal-4">72€</div>
         </div>
 
         <div class="menu-summary-item reveal">
@@ -420,7 +453,7 @@
             fatigue et de stress.
           </p>
 
-          <div class="menu-summary-price reveal-4">55€</div>
+          <div class="menu-summary-price reveal-4">72€</div>
         </div>
 
         <div class="menu-summary-item reveal">
@@ -434,7 +467,32 @@
             sont évacuées plus efficacement.
           </p>
 
-          <div class="menu-summary-price reveal-4">45€</div>
+          <div class="menu-summary-price reveal-4">49€</div>
+        </div>
+
+        <div class="menu-summary-item reveal">
+          <img alt="" class="menu-summary-img reveal-1" src="../assets/massage_cranien.jpg"/>
+
+          <h3 class="menu-summary-title reveal-2">MASSAGE CRÂNIEN&nbsp;-&nbsp;1h00</h3>
+
+          <p class="reveal-3">
+            Equilibre l'énergie corporelle et élimine les tensions par des pressions spécifiques (technique japonaise).
+          </p>
+
+          <div class="menu-summary-price reveal-4">60€</div>
+        </div>
+
+        <div class="menu-summary-item reveal">
+          <img alt="" class="menu-summary-img reveal-1" src="../assets/femme_enceinte.jpg"/>
+
+          <h3 class="menu-summary-title reveal-2">MASSAGE FEMME ENCEINTE&nbsp;-&nbsp;1h00</h3>
+
+          <p class="reveal-3">
+            Par des gestes d'une extrême douceur, englobants et délicats,
+            <br/>ce massage vous apportera une relaxation profonde (l'effleurage du ventre se fera avec votre accord).
+          </p>
+
+          <div class="menu-summary-price reveal-4">70€</div>
         </div>
       </div>
 
@@ -446,7 +504,7 @@
           <div class="abonnement-row">
             <div>
               <p>
-                Carte 5 massages&nbsp;-&nbsp;1h00 - 219€<br>
+                Carte 5 massages&nbsp;-&nbsp;1h00 - 250<br>
                 Carte non nominative valable un an.<br>
                 Les massages sont au choix.
               </p>
@@ -494,7 +552,8 @@
           </h2>
 
           <p class="reveal-2">
-            Esthéticienne diplômée d'état, riche de 10 années d'expérience et passionnée par mon métier. <br>
+            Esthéticienne diplômée d'état, riche de {{ yearsOfExperience }} années d'expérience et passionnée par mon
+            métier. <br>
             Titulaire d'un bac esthétique puis d'une formation spa, j'ai travaillé dans différentes structures :
             institut de beauté, spa et thalassothérapie en France.
             <br>
@@ -539,6 +598,8 @@
 import {Vue} from 'vue-class-component';
 
 export default class Welcome extends Vue {
+  yearsOfExperience: number = new Date().getFullYear() - 2005;
+
   mounted(): void {
     const ratio = 0.00000001;
     const options = {
@@ -930,6 +991,10 @@ hr {
     flex: none;
     width: 404px;
     order: 2;
+  }
+
+  h4 > i {
+    font-weight: normal;
   }
 }
 </style>
